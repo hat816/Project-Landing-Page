@@ -1,0 +1,107 @@
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.hero, .footer {
+    background-color: #1f2937;
+}
+
+div.hero h1.maintext {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary-text, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logotext {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero button, .accion {
+    background-color: #3882F6;
+    
+}
+
+div.information h2.headertext {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+div.quote {
+    background-color: #E5E7EB;
+}
+
+div.quote div.text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+/* POSICIONAMIENTO */
+
+.hero {
+    padding: 16px 0px;
+} /* COMPLETO */
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 345px;
+} /* COMPLETO */
+
+.hero .contenido {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    gap: 36px;
+} /* COMPLETO */
+
+a {
+    text-decoration: none;
+} /* COMPLETO */
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+} /* COMPLETO */
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff4d;
+    padding: 40px;
+    color: white;
+     width: 400px;
+}  /* COMPLETO */
+
+.contenido .text {
+    width: 400px;
+    gap: 8px;
+} /* COMPLETO */
+
+.su1 {
+    padding: 8px 22px;
+    color: white;
+    border-radius: 4px;
+    border-color: #3882F6; 
+    margin-top: 8px;
+} /* COMPLETO */
