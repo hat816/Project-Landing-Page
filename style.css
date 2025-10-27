@@ -1,4 +1,4 @@
-*, 
+*,
 *::before,
 *::after {
     box-sizing: border-box;
@@ -35,7 +35,7 @@ div.hero h1.maintext {
 
 .hero button, .accion {
     background-color: #3882F6;
-    
+
 }
 
 div.random h2.headertext {
@@ -72,7 +72,7 @@ body {
     padding: 16px 0px;
 } /* COMPLETO */
 
-.header {
+ .hero .header {
     display: flex;
     justify-content: center;
     gap: 345px;
@@ -114,7 +114,7 @@ ul {
     padding: 8px 22px;
     color: white;
     border-radius: 4px;
-    border-color: #3882F6; 
+    border-color: #3882F6;
     margin-top: 8px;
 } /* COMPLETO */
 
@@ -182,3 +182,38 @@ img {
 }
 
 /* QUOTE SECTION */
+
+/* CALL TO ACTION SECTION */
+
+.accion {
+    display: flex;
+    flex-direction: row;
+    padding: 32px 70px;
+    width: 900px;
+    justify-content: space-between;
+    align-self: center;
+    border: 2px #3882F6 solid ;
+    border-radius: 6px;
+    margin: 30px 50px;
+
+}
+
+.accion .text, .accion .header, .accion button {
+    color: white;
+}
+
+.accion .header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.accion button {
+    background-color: #3882F6;
+    border: 2px white solid ;
+    border-radius: 6px;
+    padding: 8px 22px;
+    width: 100px;
+    font-weight: bold;
+}
+
+/* CALL TO ACTION */
