@@ -217,3 +217,15 @@ img {
 }
 
 /* CALL TO ACTION */
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 30px 0;
+}
+
+/* FOOTER */
