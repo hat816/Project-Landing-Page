@@ -157,3 +157,28 @@ img {
 }
 
 /* RANDOM INFORMATION SECTION */
+
+/* QUOTE SECTION */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align:start;
+}
+
+.quote .text {
+    width: 760px;
+}
+
+.quote .autor {
+    color: #1f2937;
+    font-weight: 900;
+    font-size:large;
+    align-self: flex-end;
+    padding-right: 320px;
+}
+
+/* QUOTE SECTION */
