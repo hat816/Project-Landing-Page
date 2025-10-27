@@ -38,7 +38,7 @@ div.hero h1.maintext {
     
 }
 
-div.information h2.headertext {
+div.random h2.headertext {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
@@ -55,6 +55,16 @@ div.quote div.text {
 }
 
 /* POSICIONAMIENTO */
+
+/* GENERAL */
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* GENERAL */
 
 /* HERO SECTION */
 
@@ -112,12 +122,20 @@ ul {
 
  /* RANDOM INFORMATION SECTION */
 
+ .random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 50px;
+ }
+
 .information {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 16px 0;
     gap: 24px;
+    padding-top: 16px;
 }
 
 img {
